@@ -16,8 +16,8 @@ class DustBin {
    }
    display(){
        fill("white");
-       rect(this.body.position.x, this.body.position.y,this.body.width, this.body.height)
-       rect((this.body.position.x-(this.body.width/2)), (this.body.position.y-(this.body.height*(2*(this.body.width/100)))), this.body.height, this.body.width/2)
-       rect((this.body.position.x+(this.body.width/2)), (this.body.position.y-(this.body.height*(2*(this.body.width/100)))), this.body.height, this.body.width/2)
+       //rect(this.body.position.x, this.body.position.y,this.body.width, this.body.height)
+       //rect((this.body.position.x-(this.body.width/2)), (this.body.position.y-(this.body.height*(2*(this.body.width/100)))), this.body.height, this.body.width/2)
+       //rect((this.body.position.x+(this.body.width/2)), (this.body.position.y-(this.body.height*(2*(this.body.width/100)))), this.body.height, this.body.width/2)
    }
 }
